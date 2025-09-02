@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Auto Glow – Gallery</title>
+<!-- AOS Animation CSS -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .img-cover {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .grid-box {
+      height: 280px;
+      overflow: hidden;
+      border-radius: 8px;
+      position: relative;
+    }
+
+    .overlay-text {
+      position: absolute;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      width: 100%;
+      padding: 10px 0;
+      font-weight: bold;
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    .gallery-heading {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body class="bg-black text-white">
+
+<!-- Navbar -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/not.png" alt="Maximum Auto Care Logo" height="150" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-between" id="mainNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="d-flex gap-2">
+          <a href="tel:1234567890" class="btn btn-outline-light btn-sm rounded-pill">
+            <i class="fas fa-phone"></i>
+          </a>
+          <a href="contact.html" class="btn btn-outline-light btn-sm rounded-pill">
+            <i class="fas fa-envelope"></i> Contact
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- Gallery Section -->
+<section class="container my-5">
+  <h2 class="text-center gallery-heading mb-4">Our Work</h2>
+  <div class="row g-3">
+    <div class="col-md-6 col-lg-4">
+      <div class="grid-box">
+        <img src="assets/max1.jpeg" class="img-cover" alt="Detailing Image 1">
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="grid-box">
+        <img src="assets/max2.jpeg" class="img-cover" alt="Detailing Image 2">
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="grid-box">
+        <img src="assets/max3.jpeg" class="img-cover" alt="Detailing Image 3">
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="grid-box">
+        <img src="assets/max4.jpeg" class="img-cover" alt="Detailing Image 4">
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="grid-box">
+        <img src="assets/max5.jpeg" class="img-cover" alt="Detailing Image 5">
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="grid-box">
+        <img src="assets/max6.jpeg" class="img-cover" alt="Detailing Image 6">
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="grid-box">
+        <img src="assets/max7.jpeg" class="img-cover" alt="Detailing Image 7">
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="grid-box">
+        <img src="assets/max8.jpeg" class="img-cover" alt="Detailing Image 8">
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="grid-box">
+        <img src="assets/max9.jpeg" class="img-cover" alt="Detailing Image 9">
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer bg-black text-light pt-5 pb-4" data-aos="fade-up">
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col-md-4 mb-4">
+        <img src="assets/not.png" alt="Maximum Auto Care Logo" height="160" class="mb-3">
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5 class="text-uppercase fw-bold mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="footer-link">Home</a></li>
+          <li><a href="services.html" class="footer-link">Services</a></li>
+          <li><a href="gallery.html" class="footer-link">Gallery</a></li>
+          <li><a href="contact.html" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5 class="text-uppercase fw-bold mb-3">Get in Touch</h5>
+        <p><i class="fas fa-phone-alt me-2"></i> <a href="tel:3462082790" class="footer-link">346‑208‑2790</a></p>
+        <p><i class="fas fa-envelope me-2"></i> <a href="mailto:maximumautocare@gmail.com" class="footer-link">maximumautocare@gmail.com</a></p>
+        <div class="d-flex gap-3 mt-3">
+          <a href="https://www.instagram.com/maximumautocarellc/" target="_blank" class="text-light fs-5"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61577809943292" target="_blank" class="text-light fs-5"><i class="fab fa-facebook"></i></a>
+          <a href="https://share.google/s1fE6BhgI62JKZ4pT" target="_blank" class="text-light fs-5"><i class="fab fa-google"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-4 border-top border-secondary pt-3">
+      <small class="text-muted">&copy; 2025 Maximum Auto Care. All rights reserved. | Website by <a href="https://lsaox.github.io/EliseoWebDev/" target="_blank" class="footer-link">Eliseo Web Dev</a></small>
+    </div>
+  </div>
+</footer>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true
+  });
+</script>
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

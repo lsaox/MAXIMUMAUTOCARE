@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maximum Auto Care</title>
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Google Font: Orbitron -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="bg-black text-white">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/not.png" alt="Maximum Auto Care Logo" height="150" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-between" id="mainNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="d-flex gap-2">
+          <a href="tel:1234567890" class="btn btn-outline-light btn-sm rounded-pill">
+            <i class="fas fa-phone"></i>
+          </a>
+          <a href="contact.html" class="btn btn-outline-light btn-sm rounded-pill">
+            <i class="fas fa-envelope"></i> Contact
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero d-flex align-items-center justify-content-center text-center">
+    <div class="hero-overlay text-white">
+      <h1 class="display-3 fw-bold">Luxury Mobile Detailing</h1>
+      <a href="contact.html" class="btn btn-outline-light btn-lg px-5 py-3 mt-4">
+        Book now
+      </a>
+    </div>
+  </header>
+
+  <!-- Why Detailing -->
+<section class="why-detailing text-center py-5" data-aos="fade-up">
+  <div class="container">
+    <h2 class="display-5 fw-bold mb-5" style="font-family: 'Orbitron', sans-serif;">Why Maximum Auto Care?</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <h3 class="display-4 fw-bold">100%</h3>
+        <p>We provide a comprehensive auto care service that guarantees your vehicle looks as good as new, every time.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h3 class="display-4 fw-bold">5-Star</h3>
+        <p>Our service is backed by glowing reviews and exceptional customer feedback, ensuring you're always satisfied with the results.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h3 class="display-4 fw-bold">24 / 7</h3>
+        <p>We offer flexible scheduling to fit your busy lifestyle, so we can detail your car when it’s most convenient for you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Services Grid -->
+  <section class="container my-5" data-aos="fade-up">
+    <div class="row g-3">
+      <div class="col-6">
+        <div class="grid-box position-relative">
+          <img src="assets/car1.png" class="img-cover" alt="Ceramic Coating" />
+          <div class="overlay-text d-flex align-items-center justify-content-center">
+            <span>Ceramic Coating</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="grid-box position-relative">
+          <img src="assets/car3.jpg" class="img-cover" alt="Interior Detailing" />
+          <div class="overlay-text d-flex align-items-center justify-content-center">
+            <span>Interior Detailing</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="grid-box position-relative">
+          <img src="assets/car33.jpg" class="img-cover" alt="Paint Protection" />
+          <div class="overlay-text d-flex align-items-center justify-content-center">
+            <span>Paint Protection</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="grid-box position-relative">
+          <img src="assets/car4.jpg" class="img-cover" alt="Engine Bay Cleaning" />
+          <div class="overlay-text d-flex align-items-center justify-content-center">
+            <span>Engine Bay Cleaning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section position-relative text-white" data-aos="fade-up">
+    <div class="about-overlay d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-start">
+          <div class="col-md-6 col-lg-5 text-start">
+            <h2 class="display-5 fw-bold">About Maximum Auto Care</h2>
+            <p>
+              Based in Dallas, Texas, Maximum Auto Care provides high-end mobile car detailing with top-tier tools and expertise. We specialize in making your vehicle look its absolute best — anywhere, anytime.
+            </p>
+            <a href="services.html" class="btn btn-outline-light mt-3">Explore Services</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Our Process Section -->
+<section class="py-5 bg-black text-white" data-aos="fade-up">
+  <div class="container">
+    <h2 class="text-center mb-5 display-6 fw-bold" style="font-family: 'Orbitron', sans-serif;">How It Works</h2>
+    <div class="row g-4 text-center">
+      
+      <div class="col-md-3">
+        <i class="fas fa-calendar-check fa-2x mb-3 text-white"></i>
+        <h5 class="fw-bold">1. Book Online</h5>
+        <p>Choose your service and your preferred time — quick and easy scheduling.</p>
+      </div>
+
+      <div class="col-md-3">
+        <i class="fas fa-truck fa-2x mb-3 text-white"></i>
+        <h5 class="fw-bold">2. We Come to You</h5>
+        <p>Our fully-equipped mobile detailing unit arrives at your location.</p>
+      </div>
+
+      <div class="col-md-3">
+        <i class="fas fa-spray-can-sparkles fa-2x mb-3 text-white"></i>
+        <h5 class="fw-bold">3. Expert Detailing</h5>
+        <p>We perform your selected services with precision, care, and premium products.</p>
+      </div>
+
+      <div class="col-md-3">
+        <i class="fas fa-star fa-2x mb-3 text-white"></i>
+        <h5 class="fw-bold">4. Drive Clean</h5>
+        <p>Your vehicle is spotless, protected, and turning heads — guaranteed.</p>
+      </div>
+
+    </div>
+
+    <!-- Book Now Button -->
+    <div class="text-center mt-4">
+      <a href="contact.html" class="btn btn-outline-light btn-lg px-5 py-3">
+        Book Now
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- FAQ -->
+  <section class="container my-5" id="faq" data-aos="fade-up">
+    <h2 class="text-center mb-5 display-6 fw-bold text-white">Frequently Asked Questions</h2>
+
+    <div class="accordion luxury-faq" id="faqAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq1">
+            <i class="fas fa-map-marker-alt me-2"></i> What areas do you service?
+          </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">We proudly serve DFW Metroplex and surrounding areas.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+            <i class="fas fa-spray-can-sparkles me-2"></i> Do you offer ceramic coating?
+          </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">Yes — we offer ceramic coatings for paint, wheels, trim, and glass.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+            <i class="fas fa-car me-2"></i> Is paint correction included?
+          </button>
+        </h2>
+        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">Paint correction is available as an add-on service.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">
+            <i class="fas fa-chair me-2"></i> Do you do interior deep cleans?
+          </button>
+        </h2>
+        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">Yes — including steam cleaning, shampooing, and leather treatment.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer class="footer bg-black text-light pt-5 pb-4" data-aos="fade-up">
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col-md-4 mb-4">
+        <img src="assets/not.png" alt="Maximum Auto Care Logo" height="160" class="mb-3">
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5 class="text-uppercase fw-bold mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="footer-link">Home</a></li>
+          <li><a href="services.html" class="footer-link">Services</a></li>
+          <li><a href="gallery.html" class="footer-link">Gallery</a></li>
+          <li><a href="contact.html" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5 class="text-uppercase fw-bold mb-3">Get in Touch</h5>
+        <p><i class="fas fa-phone-alt me-2"></i> <a href="tel:3462082790" class="footer-link">346‑208‑2790</a></p>
+        <p><i class="fas fa-envelope me-2"></i> <a href="mailto:maximumautocare@gmail.com" class="footer-link">maximumautocare@gmail.com</a></p>
+        <div class="d-flex gap-3 mt-3">
+          <a href="https://www.instagram.com/maximumautocarellc/" target="_blank" class="text-light fs-5"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61577809943292" target="_blank" class="text-light fs-5"><i class="fab fa-facebook"></i></a>
+          <a href="https://share.google/s1fE6BhgI62JKZ4pT" target="_blank" class="text-light fs-5"><i class="fab fa-google"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-4 border-top border-secondary pt-3">
+      <small class="text-muted">&copy; 2025 Maximum Auto Care. All rights reserved. | Website by <a href="https://lsaox.github.io/EliseoWebDev/" target="_blank" class="footer-link">Eliseo Web Dev</a></small>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+   AOS.init({ duration: 500, once: true, easing: 'ease-in-out' });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
